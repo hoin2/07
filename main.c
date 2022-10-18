@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int all_files;
+static all_files;
 
 extern void sub();
 
