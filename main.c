@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int i;
+int all_files;
+
+extern void sub();
 
 int main(void) {
-	int i;
-	for(i=0;i<3;i++)
-		sub();
+	sub();
+	printf("%d\n",all_files);
 	return 0;
 }
 
